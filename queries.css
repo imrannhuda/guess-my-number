@@ -1,0 +1,34 @@
+@media (max-width: 999px) {
+  header,
+  .number-section,
+  .controls-section,
+  footer {
+    margin-top: 50px;
+  }
+
+  h1,
+  .number {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 599px) {
+  header,
+  .number-section,
+  .controls-section,
+  footer {
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+}

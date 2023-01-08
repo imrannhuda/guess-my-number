@@ -1,0 +1,136 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* css reset */
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 20px;
+  line-height: 120%;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* colors */
+:root {
+  --background: #222;
+  --background-2: #61b33b;
+  --text: #eee;
+}
+
+/* body */
+html {
+  font-family: "Press Start 2P", cursive;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.container {
+  width: 97%;
+  margin: auto;
+}
+
+/* header */
+header {
+  margin-top: 90px;
+}
+
+h1,
+h2 {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* number section */
+.number-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.number {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  background-color: var(--text);
+  color: var(--background);
+  display: inline-block;
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* controls section */
+.controls-section {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.left-panel,
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  text-align: center;
+}
+
+.guess,
+.button {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+}
+
+.guess {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: var(--background);
+  color: var(--text);
+  border: 2px solid var(--text);
+}
+
+.button {
+  cursor: pointer;
+  color: var(--background);
+}
+
+/* footer */
+footer {
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer div,
+footer div a {
+  font-size: 0.7rem;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--text);
+}
